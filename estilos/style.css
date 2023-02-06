@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "OpenSans-light";
+    text-transform: uppercase;
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face{
+    src: url('../fontes/OpenSans-Light.ttf');
+    font-family: "OpenSans-light";
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    padding: 0 2%;
+    height: 60px;
+    background-color: #000000;
+}
+
+header img{
+    margin: 15px;
+    margin-top: 5px;
+    width: 160px;
+    margin-left: 30px;
+}
+
+.container-banner{
+    width: 100%;
+    padding: 0 2%;
+    height: 557px;
+    background-image: url('../imagens/02fundo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{
+    padding: 10px;
+    width: 400px;
+    float: right;
+    position: relative;
+    margin-top: -10px;
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
+    background-color: white;
+    background-clip: padding-box;
+}
+
+.form h2{
+    font-weight: normal;
+    text-align: center;
+    color: #999999;
+    font-size: 21px;
+}
+
+.container-form{
+    margin-top: -70px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span{
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+}
+
+.form p{
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    padding: 8px 10px;
+    outline: none;
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #660000;
+    cursor: pointer;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #4d0000;
+}
+
+.form input[type=submit]:hover{
+    background-color: #800000;
+}
+
+.container-list{
+    padding: 30px;
+    margin-top: 150px;
+    float: left;
+    margin-left: 180px;
+    width: 519px;
+    height: 270px;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul h1{
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container-list ul li{
+    list-style: none;
+    text-align: center;
+    margin-top: 18px;
+    color: #ffffff;
+}
+
+.container-2{
+    margin-bottom: -30px;
+    padding: 40px 2%;
+    background-color: #000000;
+    text-align: center;
+}
+
+.container-2 h2{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.container-2 p{
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.arrow{
+    margin-bottom: -30px;
+    position: relative;
+    top: 5px;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background-image: url('../imagens/03arrow.jpg');
+    background-size: 100% 100%;
+}
+
+.section-1{
+    width: 100%;
+    background-color: #000000;
+    padding: 90px 0;
+}
+
+.section-1 h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.container-section{
+    padding: 0 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single1 .text-container-single1 h2{
+    margin-top: 1px;
+    color: #660000;
+}
+
+.container-single2 .text-container-single2 h2{
+    color: #660000;
+}
+
+.container-single3 .text-container-single3 h2{
+    color: #660000;  
+}
+
+.container-single1 .text-container-single1 p{
+    margin-top: -10px;
+    text-align: center;
+    padding: 20px 25px;
+    color: #ffffff;
+}
+
+.container-single2 .text-container-single2 p{
+    margin-top: -10px;
+    text-align: center;
+    padding: 20px 25px;
+    color: #ffffff;
+}
+
+.container-single3 .text-container-single3 p{
+    margin-top: -10px;
+    text-align: center;
+    padding: 20px 25px;
+    color: #ffffff;
+}
+
+.container-single1 img{
+    margin-top: -25px;
+    width: 165px;
+}
+
+.container-single2 img{
+    margin-top: -10px;
+    width: 200px;
+}
+
+.container-single3 img{
+    margin-top: -25px;
+    width: 240px;
+}
+
+.input-submit-container-assinar1 input[type=submit]{
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #660000;
+    border-bottom: 5px solid #4d0000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.input-submit-container-assinar1 input[type=submit]:hover{
+    background-color: #800000;
+}
+
+.input-submit-container-assinar1{
+    text-align: center;
+}
+
+.input-submit-container-assinar2 input[type=submit]{
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #660000;
+    border-bottom: 5px solid #4d0000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.input-submit-container-assinar2 input[type=submit]:hover{
+    background-color: #800000;
+}
+
+.input-submit-container-assinar2{
+    text-align: center;
+}
+
+.input-submit-container-assinar3 input[type=submit]{
+    margin-top: 12px;
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #660000;
+    border-bottom: 5px solid #4d0000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.input-submit-container-assinar3 input[type=submit]:hover{
+    background-color: #800000;
+}
+
+.input-submit-container-assinar3{
+    text-align: center;
+}
+
+.input-submit-container-assinar1 input[type=submit]{
+    margin-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid white;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.footer p{
+    margin-top: 8px;
+    color: #ffffff;
+}
